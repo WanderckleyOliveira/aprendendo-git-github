@@ -10,7 +10,23 @@
     <h2>Conteúdo</h2>
     <ul>
         <li>Introdução ao Git</li>
+        Git é um sistema de controle de versão distribuído open source que facilita ações com o GitHub em seu notebook ou
+desktop. Esta folha de dicas resume instruções comumente usadas via linha de comando do Git para referência
+rápida.
         <li>Trabalhando com repositórios</li>
+$ git status
+Lista todos os arquivos novos ou modificados para serem commitados
+$ git add [arquivo]
+Faz o snapshot de um arquivo na preparação para versionamento
+$ git reset [arquivo]
+Deseleciona o arquivo, mas preserva seu conteúdo
+$ git diff
+Mostra diferenças no arquivo que não foram realizadas
+$ git diff --staged
+Mostra a diferença entre arquivos selecionados e a suas últimas
+versões
+$ git commit -m "[mensagem descritiva]"
+Grava o snapshot permanentemente do arquivo no histórico de versão
         <li>Colaborando no GitHub</li>
     </ul>
 </body>
